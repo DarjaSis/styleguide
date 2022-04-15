@@ -1,0 +1,211 @@
+html {
+    background-color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+.navigation {
+    margin: 20px 250px;
+    padding: auto;
+}
+
+#colors,
+#textstyles,
+#fonts,
+#additional {
+    padding: 10px 20px;
+    margin: 20px 250px;
+    width: 60%;
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+#colors li {
+    display: inline-block;
+    text-align: center;
+    height: 8%;
+    width: 15%;
+    padding: 20px 60px;
+    margin: 2px;
+}
+
+#burnt {
+    background-color: #DD6E42;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+#dutch {
+    background-color: #E8DAB2;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+#cadet {
+    background-color: #4F6D7A;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+#caput {
+    background-color: #522B29;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+#solid {
+    background-color: #823038;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+#fonts h3 {
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 300;
+}
+.source h3{
+    font-family: 'Source Serif Pro', serif;
+}
+
+.lightsource {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.regularsource {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+.semiboldsource {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#fonts div {
+    display: inline-block;
+    margin: auto 10px;
+}
+
+.libre{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.libre p{
+    font-size: 13px;
+}
+
+.lightlibre {
+    font-weight: 400;
+}
+
+.regularlibre {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.boldlibre {
+    font-weight: 700;
+}
+
+.garamond{
+    font-family: 'EB Garamond', serif;
+}
+
+.garamond p{
+    font-size: 16px;
+}
+
+.regulareb {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.semiboldeb {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.extraboldeb {
+    font-weight: 800;
+}
+
+#textstyles div{
+    text-align: left;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.mainheader h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#textstyles ul {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.subheader h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.p h3 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.hypertext h3 {
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: 'Source Serif Pro', serif;;
+}
+
+#additional li {
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+
+#additional a {
+    text-decoration: none;
+    color: inherit;
+}
+.but1 {
+    background-color: #823038;
+    color: rgba(255,255,255, 0.75);
+    border: none;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    box-shadow: 0 5px 5px black;
+}
+
+.but2 {
+    background-color: #522B29;
+    color:rgba(255,255,255, 0.75);
+    border: none;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    box-shadow: 0 5px 5px black;
+}
